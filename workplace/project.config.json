@@ -28,7 +28,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
@@ -39,7 +39,20 @@
 				{
 					"id": -1,
 					"name": "goodsList",
-					"pathName": "pages/carPage/carPage"
+					"pathName": "pages/carPage/carPage",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "datas",
+					"pathName": "components/calendar/calendarDate",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "日历",
+					"pathName": "pages/calender/calender",
+					"query": ""
 				}
 			]
 		}

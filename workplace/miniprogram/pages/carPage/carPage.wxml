@@ -1,2 +1,10 @@
 <!--miniprogram/pages/carPage/carPage.wxml-->
-<text>miniprogram/pages/carPage/carPage.wxml</text>
+<!-- <goods></goods> -->
+<calendar 
+start="{{startTime}}"
+end="{{endTime}}"
+cur="{{curTime}}"
+selected="{{selectTimes}}"
+placeholder="请输入日期"
+></calendar>
+<mouth></mouth>

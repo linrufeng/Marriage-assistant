@@ -1,2 +1,17 @@
 <!--components/goods-list/goodsList.wxml-->
-<text>components/goods-list/goodsList.wxml</text>
+<view>
+  <view wx:for="{{goods}}" wx:for-item="obj" class="item">
+    <image 
+      class='img' src='{{obj.img}}'></image>
+      <view class='info'>
+          <view class='th'>{{obj.title}}</view>
+          <view class="s-h">{{obj.stitle}}</view>
+          <view class="p-e"><text>售价:</text><text class='pr'>{{obj.price}}</text><text class='p-d'>¥</text><text wx:if="{{obj.stock<9}}" class='s-k'>库存：</text>         
+          <text class="s-k-j" wx:if="{{obj.stock<9}}">剩余{{obj.stock}}</text>         
+          </view>
+          <view class="s-c">评分:{{obj.score}}分</view>
+          <view data-id='{{obj.id}}' bindtap='addShopCar' class='sh-c'><image src="/images/shopcar.svg"></image>加清单</view>
+          <view data-id='{{obj.id}}' bindtap='buy' class="btn">购买</view>
+      </view>
+  </view> 
+</view>
