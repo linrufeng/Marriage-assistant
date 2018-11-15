@@ -1,0 +1,34 @@
+<!--components/calendar/calendar.wxml
+日历组件 table 样式 年 月 + 日的 table-->
+
+<view class="y-l">{{curYear}}年{{curMonth}}月</view>
+<swiper class='swp'
+  current ="{{curIndex}}"
+  circular="true"  
+  bindchange="changeMonth"
+  bindanimationfinish = "changeFinish"
+  style="height:700rpx">
+  <swiper-item wx:for="{{monthArys}}" wx:key="{{index}}" wx:for-item="monthobj">
+  <!-- 周几 -->
+  <view class='w-l'>
+  <text  wx:for="{{week}}" wx:key="{{wk}}" wx:for-item="wk">{{wk}}</text>
+  </view>
+  <!-- 日期格子 -->
+  <view class="d-table">
+    <view class="m-l"
+    wx:for="{{monthobj.length/7}}"
+    wx:key="{{i}}"
+    wx:for-item="i">
+      <view bindtap='curChose'
+      data-state='{{monthobj[i*7+j].state}}'
+      data-day='{{monthobj[i*7+j].day}}'
+      class="m-c  {{monthobj[i*7+j].day == currdate && 'curr'}} {{monthobj[i*7+j].state}}"  
+      wx:for="{{7}}" 
+      wx:key="{{j}}"
+      wx:for-item="j">
+        <view class="m-d">{{monthobj[i*7+j].date}}</view>
+      </view>  
+    </view>
+  </view>
+  </swiper-item>
+</swiper>

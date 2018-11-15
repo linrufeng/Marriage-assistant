@@ -1,0 +1,24 @@
+<!--miniprogram/pages/balance/balance.wxml-->
+<text>结算页</text>
+
+<view>
+  <view>
+    <span class="name">李林森</span>
+    <span class="ph">18201255339</span>
+  </view>
+</view>
+<view>
+ 支付方式 微信支付 网银支付
+</view>
+<view>
+一种商品  样式
+</view>
+<view>
+两种商品 样式
+</view>
+<view>
+  如果涉及人员服务 《合同须知》
+  如果不涉及服务 仅物品  则不显示
+</view>
+<view> 价格明细</view>
+<view><em>¥</em><span>6127</span><span>.00</span><button>提交订单</button></view>

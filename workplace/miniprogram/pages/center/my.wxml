@@ -1,0 +1,41 @@
+<!--miniprogram/pages/center/my.wxml-->
+<view class='my'>
+  <view class='f-1'>
+    <view class='u-n'>
+    {{userInfo.nickName}}
+    </view>
+    <image src="{{userInfo.avatarUrl}}"></image>
+  </view>
+  <!-- 订单管理 -->
+  <view class='box box-1'>
+    <h3>订单管理 <navigator class="c-al">查看全部</navigator></h3>
+    <view class="o-l">
+      <text>已完成</text>
+      <text>未完成</text>
+      <text>进行中</text>
+      <text>申请售后</text>
+    </view>
+  </view>
+  <!-- 信息管理 -->
+  <view class='box box-2'>
+    <h3>信息管理 </h3>
+    <ul class="in-of">
+      <li>
+        <text>默认联系方式:</text> <text class="d-adrs">河北衡水享园小区11号4单元102室 电话:18201255339</text>
+        <image src="../../images/init.svg"></image>
+      </li>
+      <li>
+        <text>管理联系方式</text> <image src="../../images/init.svg"></image>
+      </li> 
+    </ul>
+  </view>
+  <!-- 服务 -->
+  <view class='box box-3'>
+    <h3>联系我们</h3>
+  </view>
+  <view class='box box-3'>
+    <h3>加入我们</h3>
+  </view>
+</view>
+
+<foot></foot>

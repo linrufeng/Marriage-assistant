@@ -1,0 +1,108 @@
+/* miniprogram/pages/center/my.wxss */
+/*头部*/
+page{
+  height: 100%;
+}
+.my{
+  background: #f9f9f9;
+  min-height: 100%;
+}
+.f-1{
+  height: 150rpx;
+  background:  linear-gradient(to top right,#f3972e,#ec4c4c);
+  position: relative;
+  text-align: center;
+  padding-top: 1rpx;
+  box-shadow: 1rpx 5rpx 5rpx rgb(247, 244, 244);
+}
+.f-1 .u-n{
+  font-size: 32rpx;
+  color:#fff;
+ margin-top: 20rpx;
+}
+.f-1 image{
+  width: 150rpx;
+  height: 150rpx;
+  background: #fff;
+  border-radius: 150rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -75rpx;
+  bottom: -75rpx;
+}
+.box{
+  width: 710rpx;
+  margin:0 auto;
+  background: #fff;
+  border-radius: 6rpx;  
+}
+.box h3{
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  font-weight: normal;
+  color: #999;
+}
+.box-1{
+  margin-top: 120rpx;
+}
+.box-1 .c-al{
+  display: inline-block;
+  float: right;
+  margin-right: 20rpx;
+  font-size: 24rpx;
+}
+.o-l{  
+  display: flex;     
+}
+.o-l text{
+  display: inline-block;
+  flex: 1;
+  text-align: center;
+  font-size: 24rpx;
+  color:#666;  
+  border-left: none;
+  height: 100rpx;  
+}
+/* 信息管理 */
+.box-2{
+  margin: 20rpx auto 0;
+}
+.in-of{
+  display: block;
+  font-size: 24rpx;
+  padding:0 30rpx;
+  color:#666; 
+}
+.in-of li{
+  display: block;
+  height: 80rpx;
+  line-height: 80rpx;  
+  border-bottom: 1px solid #f9f9f9;
+}
+.in-of li text,.in-of li span{
+  display: inline-block;
+  vertical-align: middle;
+}
+.in-of li image{
+  
+  float: right;
+  width: 30rpx;
+  height: 30rpx;
+  color:#12a9d6;
+  margin-top:28rpx;
+}
+/* 成为商家 */
+
+.d-adrs{
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 450rpx;
+  white-space: nowrap;
+  
+}
+.box-3{
+  margin-top:20rpx;
+}

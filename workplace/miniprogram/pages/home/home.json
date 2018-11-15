@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "foot": "/components/foot-bar/footBar"    
+  }
+}

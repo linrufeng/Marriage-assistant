@@ -1,0 +1,4 @@
+<!--miniprogram/pages/calender/calender.wxml
+日历组件
+-->
+<calendar></calendar>

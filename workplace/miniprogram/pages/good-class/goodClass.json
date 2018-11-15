@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "goods": "/components/goods-list/goodsList",
+    "calendar": "/components/calendar/calendar",
+    "mouth": "/components/calender-mouth/mouth",
+    "foot": "/components/foot-bar/footBar"
+  }
+}

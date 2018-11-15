@@ -1,0 +1,8 @@
+<!-- 商品列表 -->
+<!-- 分类选择 -->
+<goods 
+  list="{{goods}}" 
+  bindbuy="buyevent"
+  bindaddList="addListevent">
+</goods>
+<foot></foot>

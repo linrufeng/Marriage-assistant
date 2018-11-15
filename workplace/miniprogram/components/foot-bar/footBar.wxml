@@ -1,0 +1,12 @@
+<!--components/foot-bar/footBar.wxml
+  首页 分类 购物车 我
+-->
+<view class="foot">
+<navigator wx:for="{{links}}"  url="{{item.link}}" 
+data-index='{{index}}' bindtap='chose'
+open-type="navigate" class="uploader-text {{cur==index?'cur' :'com'}}">
+<image class="cm" src="{{item.cm}}"></image>
+<image class="cr" src="{{item.cr}}"></image>
+<text>{{item.name}}</text>
+</navigator>
+</view>

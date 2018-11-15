@@ -1,0 +1,15 @@
+<!--miniprogram/components/calendar/calendarDate.wxml
+日历 组件 年 月 
+-->
+
+<scroll-view scroll-y class=''   bindscroll="scroll">
+<view wx:for="{{num}}" wx:for-item="y" wx:key="y">
+  <view class="y-l">{{start+y}}年</view>
+  <view class="m-l" wx:for="{{[1,2,3,4]}}" wx:for-item="i" wx:key="i">
+    <view class="m-c" wx:for="{{[1,2,3]}}" wx:for-item="j" wx:key="j">
+      <view class="m-d" data-year="{{start+y}}" data-mouth="{{j+3*(i-1)}}" bindtap='choseMouth'>{{j+3*(i-1)}}月</view>
+    </view>  
+  </view> 
+</view>
+
+</scroll-view>

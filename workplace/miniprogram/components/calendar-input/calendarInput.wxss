@@ -1,0 +1,10 @@
+/* components/calendar-input/calendarInput.wxss */
+input{
+  border: 1rpx solid #ddd;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 30rpx;
+  padding: 0 10rpx;
+  display: inline-block;
+  width: 300rpx;
+}

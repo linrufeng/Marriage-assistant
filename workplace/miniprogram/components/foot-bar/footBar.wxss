@@ -1,0 +1,37 @@
+/* components/foot-bar/footBar.wxss */
+.foot{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background: #fff;  
+  display: flex;
+  height: 100rpx;
+  align-items:center;
+  border-top:1px solid #f2f2f2;
+}
+.uploader-text{ 
+  height: 80rpx;
+  line-height: 40rpx;
+  flex: 1;
+  text-align: center;
+}
+.foot text{
+  color:#333;
+  font-size: 24rpx;
+}
+.foot image{
+  display: block;
+  width: 40rpx;
+  height: 40rpx;  
+  margin: 0 auto; 
+}
+.com .cr{
+  display: none;
+  
+}
+.cur text{
+  color:rgb(216, 31, 31);
+}
+.cur .cm{
+  display: none;
+}
