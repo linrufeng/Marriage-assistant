@@ -1,6 +1,6 @@
 <!--components/goods-list/goodsList.wxml-->
 <view>
-  <view wx:for="{{goods}}" wx:for-item="obj" class="item">
+  <view wx:for="{{list}}" wx:for-item="obj" class="item">
     <image 
       class='img' src='{{obj.img}}'></image>
       <view class='info'>
@@ -10,8 +10,8 @@
           <text class="s-k-j" wx:if="{{obj.stock<9}}">剩余{{obj.stock}}</text>         
           </view>
           <view class="s-c">评分:{{obj.score}}分</view>
-          <view data-id='{{obj.id}}' bindtap='addShopCar' class='sh-c'><image src="/images/shopcar.svg"></image>加清单</view>
-          <view data-id='{{obj.id}}' bindtap='buy' class="btn">购买</view>
+          <view data-id='{{obj._id}}' bindtap='addShopCar' class='sh-c'><image src="/images/shopcar.svg"></image>加清单</view>
+          <view data-id='{{obj._id}}' bindtap='buy' class="btn">购买</view>
       </view>
   </view> 
 </view>

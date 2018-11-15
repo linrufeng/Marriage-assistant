@@ -28,7 +28,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 3,
+			"current": 8,
 			"list": [
 				{
 					"id": -1,
@@ -43,16 +43,46 @@
 					"query": ""
 				},
 				{
-					"id": -1,
-					"name": "datas",
-					"pathName": "components/calendar/calendarDate",
-					"query": ""
-				},
-				{
 					"id": 3,
 					"name": "日历",
 					"pathName": "pages/calender/calender",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "注册",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "分类页面",
+					"pathName": "pages/good-class/goodClass",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "结算页",
+					"pathName": "pages/balance/balance",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/home/home",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的中心",
+					"pathName": "pages/center/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "购物车",
+					"pathName": "pages/myshopcar/myshopcar"
 				}
 			]
 		}

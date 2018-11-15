@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -7,14 +8,19 @@
     "pages/addFunction/addFunction",
     "pages/deployFunctions/deployFunctions",
     "pages/chooseLib/chooseLib",
-    "pages/carPage/carPage",    
-    "pages/calender/calender"
+    "pages/carPage/carPage",
+    "pages/calender/calender",
+    "pages/login/login",
+    "pages/good-class/goodClass",
+    "pages/balance/balance",
+    "pages/center/my",
+    "pages/myshopcar/myshopcar"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "我们",
     "navigationBarTextStyle": "black"
   }
 }
